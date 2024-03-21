@@ -1,0 +1,58 @@
+﻿@using SeaFoodApp.Models.Entities
+
+@{
+    var customersInfo = (IEnumerable<CustomerInfo>)ViewData["customersInfo"];
+}
+
+<div class="container" style="background-color:white;padding:3%">
+
+    <h2>Customers Information</h2>
+
+@if (ViewBag.deleted == true)
+{
+    <div class="alert alert-danger" role="alert">
+        Customer Info deleted successfully!
+    </div>
+}
+
+
+    @if (customersInfo != null)
+{
+    <table class="table table-striped">
+        <tr>
+            <th>Name</th>
+            <th>Phone Number</th>
+            <th>Address</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        @foreach (var e in customersInfo)
+        {
+            <tr>
+                <td>@e.Customer.Name</td>
+                <td>@e.PhoneNumber</td>
+                <td>@e.Address</td>
+                    @if (User.IsInRole("Admin")){
+                <td>
+                    <a class="btn btn-secondary" href="/CustomerInfo/AddCustomerInfo/@e.Customer.Id">Add Customer Info</a>
+                </td>
+                <td>
+                     <a class="btn btn-success" href="/CustomerInfo/EditCustomerInfo/@e.Id">Edit</a>
+                </td>
+                <td>
+                    <a class="btn btn-danger" href="/CustomerInfo/DeleteCustomerInfo/{@e.Id}">Delete</a>
+                </td>
+                    }
+            </tr>
+
+
+        }
+    </table>
+    
+}
+
+</div>
+
+
+

@@ -1,0 +1,43 @@
+﻿@using SeaFoodApp.Models.Entities
+
+@{
+    var employeesJobs = (IEnumerable<EmployeeJobs>)ViewData["employeesJobs"];
+}
+<div class="container" style="padding:3%">
+    <h2>All Employees Jobs</h2>
+
+    @if (User.IsInRole("Admin"))
+    {
+        <a class="btn btn-primary" href="/EmployeeJobs/AddEmployeeJob">Add Employee Job</a>
+    }
+
+    <table class="table table-striped" style="background-color:white;">
+    <tr>
+        <th>Employee</th>
+        <th>Job</th>
+        <th></th>
+        <th></th>
+    </tr>
+    @foreach (var ej in employeesJobs)
+    {
+        <tr>
+            <td>@ej.Employee.Name</td>
+            <td>@ej.Job.Title</td>
+                @if (User.IsInRole("Admin")){
+            <td>
+                <a class="btn btn-success" href="/EmployeeJobs/EditEmployeeJob/@ej.Id">Edit</a>
+            </td>
+            <td>
+                <a class="btn btn-danger" href="/EmployeeJobs/DeleteEmployeeJob/{@ej.Id}">Delete</a>
+            </td>
+                }
+        </tr>
+
+        
+    }
+</table>
+
+
+
+</div>
+

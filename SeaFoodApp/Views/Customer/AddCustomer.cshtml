@@ -1,0 +1,44 @@
+﻿
+@model SeaFoodApp.Models.Entities.Customer
+
+<div class="container" style="background-color:white;">
+
+
+@if (ViewBag.Added == true)
+{
+    <div class="alert alert-success" role="alert">
+        Employee Added Successfully!
+    </div>
+    <a class="btn btn-secondary" href="/Employee/GetAllEmployees">Go To Employees Page</a>
+}
+
+else
+{
+    <div id="section" style="padding:10%">
+        <h2 style="text-align:center">Add New Customer</h2>
+        <form action="/Customer/AddCustomer" method="post">
+        <div asp-validation-summary="All" style="color:red;"></div>
+        <div class="row">
+            <h5><label for="Name">Customer Name</label></h5>
+        </div>
+        <br />
+        <div class="row">
+            <input type="text" asp-for="@Model.Name" class="form-control" placeholder="Enter Customer Name">
+            <span asp-validation-for="@Model.Name" class="text-danger"></span>
+        </div>
+        <br /><br />
+
+        <div class="row">
+                <div class="col-sm-4">
+                    <button type="submit" class="btn btn-primary">Add Customer</button>
+                </div>
+              
+        </div>
+        </form>
+    </div>
+  
+}
+</div>
+
+
+

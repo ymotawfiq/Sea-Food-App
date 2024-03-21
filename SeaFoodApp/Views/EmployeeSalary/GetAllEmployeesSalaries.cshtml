@@ -1,0 +1,66 @@
+﻿@using SeaFoodApp.Models.Entities
+
+@{
+    var employeesSalaries = (IEnumerable<EmployeeSalary>)ViewData["employeesSalaries"];
+}
+<div class="container" style="background-color:white;padding:3%">
+    <h2>Employee Salaries</h2>
+@if (ViewBag.deleted == true)
+{
+    <h2>Employee Salary deleted successfully</h2>
+}
+
+else
+{
+    @if (employeesSalaries != null)
+    {
+
+        <table class="table table-striped">
+            <tr>
+                <th>Employee Name</th>
+                <th>Base Salary</th>
+                <th>Bonus</th>
+                <th>Discount</th>
+                <th>Total Salary</th>
+                <th>Salary Date</th>
+                <th>Is Paid</th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            @foreach (var es in employeesSalaries)
+            {
+                <tr>
+                    <td>@es.Employee.Name</td>
+                    <td>@es.BaseSalary</td>
+                    <td>@es.Bonus</td>
+                    <td>@es.Discount</td>
+                    <td>@es.TotalSalary</td>
+                    <td>@es.SalaryDate.ToString().Split(' ')[0]</td>
+                    <td>@es.IsPaid</td>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <td>
+                                <a class="btn btn-primary" href="/EmployeeSalary/AddEmployeeSalary/@es.EmployeeId">Add Salary</a>
+                            </td>
+                            <td>
+                                <a class="btn btn-success" href="/EmployeeSalary/EditEmployeeSalary/@es.Id">Edit</a>
+                            </td>
+                            <td>
+                                <a class="btn btn-danger" href="/EmployeeSalary/DeleteEmployeeSalary/{@es.Id}">Delete</a>
+                    </td>
+                    }
+                </tr>
+
+
+            }
+        </table>
+        
+    }
+}
+</div>
+
+
+
+
+

@@ -1,0 +1,81 @@
+﻿
+@model SeaFoodApp.Models.Entities.DishViewModel
+
+<div class="container" style="background-color:white;padding:3%;">
+
+
+@if (ViewBag.Added == true)
+{
+    <div class="alert alert-success" role="alert">
+        Dish Added Successfully!
+    </div>
+    <a class="btn btn-secondary" href="/Dish/GetAllDishes">Go To Dishes Page</a>
+}
+
+else
+{
+
+    <div id="section" style="padding:10%">
+        <h2 style="text-align:center">Add New Dish</h2>
+        <form action="/Dish/AddDish" method="post" enctype="multipart/form-data">
+        <div asp-validation-summary="All" style="color:red;"></div>
+        <div class="row">
+            <h5><label for="Name">Dish Name</label></h5>
+        </div>
+        <br />
+        <div class="row">
+            <input asp-for="@Model.DishName" class="form-control" placeholder="Enter Dish Name..">
+            <span asp-validation-for="@Model.DishName" class="text-danger"></span>
+        </div>
+        <br /><br />
+        <div class="row">
+            <h5><label for="Name">Dish Description</label></h5>
+        </div>
+        <br />
+        <div class="row">
+            <textarea asp-for="@Model.DishDescription" class="form-control" placeholder="Enter Dish description.."></textarea>
+            <span asp-validation-for="@Model.DishName" class="text-danger"></span>
+        </div>
+        <br /><br />
+        <div class="row">
+            <h5><label for="Starting date">Dish Cost</label></h5>
+        </div>
+        <br />
+        <div class="row">
+            <input asp-for="@Model.DishCost" class="form-control" placeholder="Dish cost..">
+            <span asp-validation-for="@Model.DishCost" class="text-danger"></span>
+        </div>
+        <br /><br />
+        <div class="row">
+            <h5><label for="Starting date">Time to prepare in minutes</label></h5>
+        </div>
+        <br />
+        <div class="row">
+            <input asp-for="@Model.TimeToPrepareInMinutes" class="form-control" placeholder="Time To Prepare..">
+            <span asp-validation-for="@Model.TimeToPrepareInMinutes" class="text-danger"></span>
+        </div>
+        <br /><br />
+        <div class="row">
+            <h5><label for="Starting date">Dish Image</label></h5>
+        </div>
+        <br />
+        <div class="row">
+            <input asp-for="@Model.Image" class="form-control" placeholder="Choose Image..">
+            <span asp-validation-for="@Model.Image" class="text-danger"></span>
+        </div>
+        <br /><br />
+        <div class="row">
+                <div class="col-sm-2">
+                    <button type="submit" class="btn btn-primary">Add Dish</button>
+                </div>
+              
+        </div>
+        </form>
+    </div>
+
+    
+}
+</div>
+
+
+

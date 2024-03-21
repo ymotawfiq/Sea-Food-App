@@ -1,0 +1,70 @@
+﻿@using SeaFoodApp.Models.Entities
+
+
+@model SeaFoodApp.Models.Entities.TableOrder
+
+
+@{
+    var dishes = (IEnumerable<Dish>)ViewData["dishes"];
+}
+
+
+<div class="container" style="background-color:white;padding:3%">
+
+    @if (ViewBag.Added == true)
+    {
+        <div class="alert alert-success" role="alert">
+            Order Added Successfully!
+        </div>
+        <a class="btn btn-secondary" href="/Job/GetAllJobTitles">Go To Jobs Page</a>
+    }
+
+    else
+    {
+
+        @if (dishes != null)
+        {
+            <div id="section" style="padding:10%">
+                <h2 style="text-align:center">Add TableOrder</h2>
+            <form action="/TableOrder/AddTableOrder" method="post">
+                <input asp-for="@Model.TableNumber" hidden />
+                <div asp-validation-summary="All" style="color:red;"></div>
+                <div class="row">
+                    <h5><label for="Table Number">Table Number</label></h5>
+                </div>
+                <br />
+                <div class="row">
+                    <input asp-for="@Model.TableNumber" class="form-control" placeholder="Enter Table Number">
+                    <span asp-validation-for="@Model.TableNumber" class="text-danger"></span>
+                </div>
+                <br /><br />
+                <div class="row">
+                    <h5><label for="Table Number">Dish</label></h5>
+                </div>
+                <br />
+                <div class="row">
+                    <select id="dishId" name="dishId" class="form-select form-select-lg mb-3">
+                        @foreach (var e in dishes)
+                        {
+                            <option value="@e.Id">@e.DishName</option>
+                            <span asp-validation-for="@e.Id" class="text-danger"></span>
+                        }
+                    </select>
+                </div>
+                <br /><br />
+                <div class="row">
+                    <div class="col-sm-2">
+                        <button type="submit" class="btn btn-primary">Add Table Order</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+
+
+        }
+    }
+</div>
+
+
+

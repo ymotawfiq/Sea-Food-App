@@ -1,0 +1,47 @@
+﻿@using SeaFoodApp.Models.Entities
+
+@model SeaFoodApp.Models.Entities.Job
+
+
+
+<div class="container" style="background-color:white;padding:3%">
+@if (ViewBag.edited == true)
+{
+    <div class="alert alert-success" role="alert">
+        Job Updated Successfully!
+    </div>
+        <a class="btn btn-secondary" href="/Job/GetAllJobTitles">Go To Jobs Page</a>
+    }
+
+    else
+    {
+        @if (Model != null)
+        {
+            <div id="section" style="padding:10%">
+                <h2 style="text-align:center">Edit Job</h2>
+                <form action="/Job/EditJob" method="post">
+                    <div asp-validation-summary="All" style="color:red"></div>
+                    <input type="text" asp-for="@Model.Id" hidden />
+                    <div class="row">
+                        <h5><label for="Name">Job Title</label></h5>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <input type="text" asp-for="@Model.Title" class="form-control" placeholder="Enter Job......">
+                        <span asp-validation-for="@Model.Title" class="text-danger"></span>
+                    </div>
+                    <br /><br />
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <button type="submit" class="btn btn-primary">Edit Job</button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+                
+        }
+
+}
+</div>
+

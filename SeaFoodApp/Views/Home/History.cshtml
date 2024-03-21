@@ -1,0 +1,234 @@
+﻿
+
+<style>
+
+    #History {
+        background-color: white;
+        padding: 3%;
+        margin: auto%
+    }
+
+    .zizo-teams {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 7px 80px;
+        display: flex;
+        background: rgb(0, 0, 0);
+        justify-content: space-between;
+        align-items: center;
+        background: url('/image/1.png') no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        z-index: 100;
+    }
+
+    .mon-cs {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 80px auto;
+    }
+
+        .mon-cs h1 {
+            font-size: 50px;
+            counter-reset: #000;
+            margin-bottom: 25px;
+            position: relative;
+        }
+
+            .mon-cs h1::after {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 4px;
+                display: block;
+                margin: 0 auto;
+                background-color: rgb(243, 77, 11, 0.836);
+            }
+
+        .mon-cs p {
+            font-size: 22px;
+            color: #111010;
+            margin-bottom: 35px;
+        }
+
+    .cont {
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px 20px;
+    }
+
+    .teams {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .teams-image {
+        flex: 1;
+        margin-right: 40px;
+        overflow: hidden;
+    }
+
+        .teams-image .images {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            transition: 0.5s ease;
+            cursor: pointer;
+            transition: 1s ease-in-out;
+            transform-style: preserve-3d;
+            transition: 0.7s ease;
+        }
+
+        .teams-image:hover .images {
+            transform: rotateY(0.5turn);
+        }
+
+    .teams-content {
+        flex: 1;
+    }
+
+        .teams-content h2::after {
+            content: "";
+            position: absolute;
+            width: 8%;
+            height: 4px;
+            display: block;
+            margin: 0 auto;
+            background-color: rgb(243, 77, 11, 0.836);
+        }
+
+        .teams-content p {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        .teams-content .read-more {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: black;
+            color: #fff;
+            font-size: 19px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin-top: 15px;
+            transition: 0.3s ease;
+        }
+
+            .teams-content .read-more:hover {
+                background-color: rgb(243, 77, 11, 0.836);
+            }
+
+    .add {
+        width: 20em;
+        height: 25em;
+    }
+
+</style>
+
+
+
+<section id="History">
+    <div class="mon-cs">
+        <h1>Restaurant history</h1><br>
+        <p>Seafood Restaurant, a beacon of good seafood cooking, continues to draw people from all over South Carolina.</p>
+    </div>
+    <div class="cont">
+        <section class="teams">
+            <div class="teams-image">
+                <img class="images" src="image/food-squid-chorizo.jpeg">
+            </div>
+            <div class="teams-content">
+                <h2>Sea food</h2><br>
+                <p>Welcome to our fish restaurant, where every dish tells a story woven with the threads of maritime history. Our journey began decades ago, rooted in the passion of a seafaring captain and his culinary genius wife. Inspired by the bounty of the ocean and a desire to share its treasures with the world, they transformed a humble shack into a beloved dining destination. Over the years, our restaurant has become a beacon of tradition and excellence, drawing patrons from near and far with the promise of the freshest catch expertly prepared with care and dedication. With each bite, you taste not just the flavors of the sea but the rich tapestry of our heritage, making dining with us an unforgettable experience steeped in history and flavor.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.appnector.mrseafood&pcampaignid=web_share" class="read-more">Book Table</a>
+            </div>
+        </section>
+    </div>
+    <br>
+    <br>
+
+    <table>
+
+        <caption>
+            <font size="5">Best Foods in restaurant</font>
+            <br><br>
+        </caption>
+        <tr>
+            <th width="25%">
+                <a target="_blank"><img class="add" width="90%" src="/image/istockphoto-1325172440-612x612.jpg"></a>
+                <br>
+                Spaghetti alla puttanesca
+            </th>
+
+            <th width="25%">
+                <a target="_blank"><img class="add" width="90%" src="/image/Fried-132052360-612x612.jpg"></a>
+                <br>
+                Fried Calamari
+            </th>
+
+            <th width="25%">
+                <a target="_blank"><img class="add" width="80%" src="/image/raw salmon-1413869632-612x612.jpg"></a>
+                <br>
+                Raw salmon steak
+            </th>
+        </tr>
+    </table>
+    <br><hr color="orange"><hr color="orange"><br><br><br><br>
+
+    <div class="cont">
+        <section class="teams">
+            <div class="teams-image">
+                <img class="images" src="/image/best chefs.jpg">
+            </div>
+            <div class="teams-content">
+                <h2> Chefs</h2><br>
+                <p>
+                    At our fish restaurant, we are privileged to boast a team of passionate and talented chefs who elevate the dining experience with their expertise and creativity. Each member of our culinary team brings a unique background and skill set, united by a shared love for seafood and a commitment to excellence. From our head chef, who orchestrates the menu with finesse and flair, to our line cooks who meticulously prepare each dish with precision, every member of our kitchen staff plays a vital role in bringing the flavors of the ocean to life on your plate. With years of experience and a dedication to sourcing only the freshest ingredients, our chefs take pride in crafting unforgettable dishes that celebrate the bounty of the sea. Whether you're craving classic fish and chips or adventurous seafood specials, our talented chefs are ready to delight your taste buds with their culinary creations
+                </p>
+                <a href="https://play.google.com/store/apps/details?id=com.appnector.mrseafood&pcampaignid=web_share" class="read-more">Choose Chef</a>
+            </div>
+        </section>
+    </div>
+    <br>
+    <br>
+
+    <table>
+
+        <caption>
+            <font size="5">The most important Chefs in restaurant</font>
+            <br><br>
+        </caption>
+        <tr>
+            <th width="25%">
+                <a target="_blank"><img class="add" width="90%" src="/image/joel-612x612.jpg"></a>
+                <br>
+                joël robuchon
+            </th>
+
+            <th width="25%">
+                <a target="_blank"><img class="add" width="90%" src="/image/alain-ducasse.jpg"></a>
+                <br>
+                Alain Ducasse
+            </th>
+
+            <th width="25%">
+                <a target="_blank"><img class="add" width="80%" src="/image/Gordon Ramsay.jpg"></a>
+                <br>
+                Gordon Ramsay
+            </th>
+        </tr>
+    </table>
+    <br><hr color="orange"><hr color="orange"><br><br><br><br>
+
+
+</section>

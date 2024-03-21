@@ -1,0 +1,50 @@
+﻿@using SeaFoodApp.Models.Entities
+
+@{
+    var customerInfos = (IEnumerable<CustomerInfo>)ViewData["customerInfos"];
+    var customer = (Customer)ViewData["customer"];
+}
+<div class="container" style=" padding:3%;">
+
+
+    <h2 style="background-color:white;">Customer <u>@customer.Name</u> Info</h2>
+    @if (User.IsInRole("Admin"))
+    {
+        <a class="btn btn-primary" href="/CustomerInfo/AddCustomerInfo/@customer.Id">Add Customer Info</a>
+    }
+    @if (customerInfos != null)
+    {
+        <table class="table table-striped" style="background-color:white">
+            <tr>
+                <th>Name</th>
+                <th>Phone Number</th>
+                <th>Address</th>
+                <th></th>
+                <th></th>
+            </tr>
+            @foreach (var e in customerInfos)
+            {
+                <tr>
+                    <td>@e.Customer.Name</td>
+                    <td>@e.PhoneNumber</td>
+                    <td>@e.Address</td>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <td>
+                            <a class="btn btn-success" href="/CustomerInfo/EditCustomerInfo/@e.Id">Edit</a>
+                        </td>
+                        <td>
+                            <a class="btn btn-danger" href="/CustomerInfo/DeleteCustomerInfo/{@e.Id}">Delete</a>
+                    </td>
+                    }
+                </tr>
+
+
+            }
+        </table>
+
+    }
+
+
+
+    </div>

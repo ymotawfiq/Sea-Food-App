@@ -1,0 +1,58 @@
+﻿@using SeaFoodApp.Models.Entities
+
+@{
+    var Employees = (IEnumerable<Employee>) ViewData["employees"];
+}
+<div class="container" style="padding:3%;">
+    <h2 style="color:white">All Employees</h2>
+@if (ViewBag.deleted == true)
+{
+    <div class="alert alert-danger" role="alert">
+        Employee deleted successfully!
+    </div>
+}
+
+    @if (User.IsInRole("Admin"))
+    {
+        <a class="btn btn-primary" href="/Employee/AddEmployee">Add New Employee</a>
+    }
+
+
+@if (Employees != null)
+{
+        <table class="table table-striped" style="background-color:white">
+        <tr>
+            <th>Name</th>
+            <th>Starting Date</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        @foreach (var e in Employees)
+        {
+            <tr>
+                <td>@e.Name</td>
+                <td>@e.StartingDate.ToString().Split(' ')[0]</td>
+                <td>
+                    <a class="btn btn-secondary" href="/Employee/GetEmployeeInfo/@e.Id">Employee Info</a>
+                </td>
+                    @if (User.IsInRole("Admin")){
+                <td>
+                    <a class="btn btn-success" href="/Employee/EditEmployee/@e.Id">Edit</a>
+                </td>
+                <td>
+                    <a class="btn btn-danger" href="/Employee/DeleteEmployee/{@e.Id}">Delete</a>
+                </td>
+                    }
+            </tr>
+
+
+        }
+    </table>
+    
+}
+
+</div>
+
+
+

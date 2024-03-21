@@ -1,0 +1,99 @@
+﻿@using SeaFoodApp.Models.Entities
+
+@model SeaFoodApp.Models.Entities.EmployeeSalary
+
+@{
+    var employee = (Employee)ViewData["employee"];
+}
+
+<div class="container" style="background-color:white;padding:3%">
+@if (ViewBag.edited == true)
+{
+    <div class="alert alert-success" role="alert">
+        Employee Job Updated Successfully!
+    </div>
+    <a class="btn btn-secondary" href="/EmployeeJobs/GetAllEmployeesJobs">Go To Employees Jobs Page</a>
+}
+
+else
+{
+    @if (Model!=null && employee!=null)
+    {
+
+        <div id="section" style="padding:10%">
+            <h2 style="text-align:center">Edit Employee Salary</h2>
+            <form action="/EmployeeSalary/EditEmployeeSalary" method="post">
+                <div asp-validation-summary="All" style="color:red;"></div>
+                <input type="text" name="Id" value="@employee.Id" hidden />
+                <input type="text" name="empSalId" value="@Model.Id" hidden />
+                    <div class="row">
+                        <h5><label for="Name">Employee Name</label></h5>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <input asp-for="@employee.Name" class="form-control" placeholder="Enter Employee Name" disabled>
+                        <span asp-validation-for="@employee.Name" class="text-danger"></span>
+                    </div>
+                    <br /><br />
+                    <div class="row">
+                        <h5><label for="Starting date">Base Salary</label></h5>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <input asp-for="@Model.BaseSalary" class="form-control" placeholder="Base Salary">
+                        <span asp-validation-for="@Model.BaseSalary" class="text-danger"></span>
+                    </div>
+                    <br /><br />
+                    <div class="row">
+                        <h5><label for="Starting date">Bonus</label></h5>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <input asp-for="@Model.Bonus" class="form-control" placeholder="Bonus">
+                        <span asp-validation-for="@Model.Bonus" class="text-danger"></span>
+                    </div>
+                    <br /><br />
+                    <div class="row">
+                        <h5><label for="Starting date">Discount</label></h5>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <input asp-for="@Model.Discount" class="form-control" placeholder="Discount">
+                        <span asp-validation-for="@Model.Discount" class="text-danger"></span>
+                    </div>
+                    <br /><br />
+                    <div class="row">
+                        <h5><label for="Starting date">Salary Date</label></h5>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <input asp-for="@Model.SalaryDate" class="form-control" placeholder="Total Salary">
+                        <span asp-validation-for="@Model.SalaryDate" class="text-danger"></span>
+                    </div>
+                    <br /><br />
+                    <div class="row">
+                        <h5><label for="Starting date">Is Paid</label></h5>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <select id="isPaid" name="isPaid" class="form-select form-select-lg mb-3">
+                            <option value="@true">Yes</option>
+                            <option value="@false">No</option>
+                        </select>
+                    </div>
+                    <br /><br />
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <button type="submit" class="btn btn-primary">Edit Employee Salary</button>
+                        </div>
+
+                    </div>
+            </form>
+        </div>
+
+        
+    }
+
+}
+</div>
+

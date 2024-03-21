@@ -1,0 +1,72 @@
+﻿@using SeaFoodApp.Models.Entities
+
+@model SeaFoodApp.Models.Entities.Customer
+
+@{
+    var customer = (Customer)ViewData["customer"];
+    var customerInfo = (CustomerInfo)ViewData["customerInfo"];
+}
+
+
+
+<div class="container" style="background-color:white;padding:3%">
+
+@if (ViewBag.edited == true)
+{
+    <div class="alert alert-success" role="alert">
+        Employee Updated Successfully!
+    </div>
+    <a class="btn btn-secondary" href="/Employee/GetAllEmployees">Go To Employees Page</a>
+}
+
+else
+{
+
+    @if (customerInfo!=null)
+    {
+        <div id="section" style="padding:10%">
+            <h2 style="text-align:center">Edit Customer Info</h2>
+                <form action="/CustomerInfo/EditCustomerInfo" method="post">
+                <div asp-validation-summary="All" style="color:red;"></div>
+                <input type="text" name="Id" asp-for="@customerInfo.Id" hidden />
+                <input type="text" name="cusId" asp-for="@customerInfo.CustomerId" hidden />
+                <div class="row">
+                    <h5><label for="Name">Customer Name</label></h5>
+                </div>
+                <br />
+                <div class="row">
+                    <input type="text" asp-for="@customer.Name" class="form-control" placeholder="Enter Customer Name....." disabled>
+                    <span asp-validation-for="@customer.Name" class="text-danger"></span>
+                </div>
+                <br /><br />
+                <div class="row">
+                    <h5><label for="Name">Phone Number</label></h5>
+                </div>
+                <br />
+                <div class="row">
+                    <input type="text" asp-for="@customerInfo.PhoneNumber" class="form-control" placeholder="Enter Customer Phone Number">
+                    <span asp-validation-for="@customerInfo.PhoneNumber" class="text-danger"></span>
+                </div>
+                <br /><br />
+
+                <div class="row">
+                    <h5><label for="Name">Address</label></h5>
+                </div>
+                <br />
+                <div class="row">
+                    <input type="text" asp-for="@customerInfo.Address" class="form-control" placeholder="Enter Customer Address">
+                </div>
+                <br /><br />
+                <div class="row">
+                    <div class="col-sm-4">
+                        <button type="submit" class="btn btn-primary">Edit Customer Info</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+    }
+
+}
+</div>
+

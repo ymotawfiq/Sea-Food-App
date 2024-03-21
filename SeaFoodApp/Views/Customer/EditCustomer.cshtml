@@ -1,0 +1,51 @@
+﻿@using SeaFoodApp.Models.Entities
+
+@model SeaFoodApp.Models.Entities.Customer
+
+
+
+
+
+<div class="container" style="background-color:white;padding:3%">
+
+@if (ViewBag.edited == true)
+{
+    <div class="alert alert-success" role="alert">
+        Employee Updated Successfully!
+    </div>
+    <a class="btn btn-secondary" href="/Employee/GetAllEmployees">Go To Employees Page</a>
+}
+
+else
+{
+
+    @if (Model != null)
+    {
+        <div id="section" style="padding:10%">
+            <h2 style="text-align:center">Edit Customer</h2>
+                <form action="/Customer/EditCustomer" method="post">
+                <div asp-validation-summary="All" style="color:red;"></div>
+                <input type="text" name="Id" asp-for="@Model.Id" hidden />
+                <div class="row">
+                    <h5><label for="Name">Customer Name</label></h5>
+                </div>
+                <br />
+                <div class="row">
+                    <input type="text" asp-for="@Model.Name" class="form-control" placeholder="Enter Customer Name.....">
+                    <span asp-validation-for="@Model.Name" class="text-danger"></span>
+                </div>
+                <br /><br />
+                <div class="row">
+                    <div class="col-sm-4">
+                        <button type="submit" class="btn btn-primary">Edit Customer</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+        
+    }
+
+}
+</div>
+

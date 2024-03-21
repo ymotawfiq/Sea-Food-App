@@ -1,0 +1,94 @@
+﻿@using SeaFoodApp.Models.DTOs
+
+@{
+    var employeeInfoDto = (EmployeeInfoDto)ViewData["employeeInfoDto"];
+}
+
+
+
+
+<div class="container" style="background-color:white;padding:3%">
+
+
+    <h2>Employee <u>@employeeInfoDto.Name</u> Information</h2>
+
+
+
+<br />
+<br />
+    @if (User.IsInRole("Admin"))
+    {
+        <a class="btn btn-primary" href="/EmployeeSalary/AddEmployeeSalary/@employeeInfoDto.EmployeeId">Add Salary</a>
+
+    }
+
+    <h2><u>@employeeInfoDto.Name Jobs</u></h2>
+<br />
+<table class="table table-striped">
+    <tr>
+        <th>Employee</th>
+        <th>Job</th>
+        <th></th>
+        <th></th>
+    </tr>
+    @foreach (var ej in employeeInfoDto.EmployeeJobs)
+    {
+        <tr>
+            <td>@ej.Employee.Name</td>
+            <td>@ej.Job.Title</td>
+                @if (User.IsInRole("Admin")){
+            <td>
+                <a class="btn btn-success" href="/EmployeeJobs/EditEmployeeJob/@ej.Id">Edit</a>
+            </td>
+            <td>
+                <a class="btn btn-danger" href="/EmployeeJobs/DeleteEmployeeJob/{@ej.Id}">Delete</a>
+            </td>
+                }
+        </tr>
+
+
+    }
+</table>
+
+<a class="btn btn-primary" href="/EmployeeJobs/AddEmployeeJob">Add Employee Job</a>
+
+<br />
+<br />
+<br />
+
+    <h2><u>@employeeInfoDto.Name Salaries</u></h2>
+<br />
+<table class="table table-striped">
+    <tr>
+        <th>Employee Name</th>
+        <th>Base Salary</th>
+        <th>Bonus</th>
+        <th>Discount</th>
+        <th>Total Salary</th>
+        <th>Salary Date</th>
+        <th>Is Paid</th>
+        <th></th>
+        <th></th>
+    </tr>
+    @foreach (var es in employeeInfoDto.EmployeeSalaries)
+    {
+        <tr>
+            <td>@es.Employee.Name</td>
+            <td>@es.BaseSalary</td>
+            <td>@es.Bonus</td>
+            <td>@es.Discount</td>
+            <td>@es.TotalSalary</td>
+            <td>@es.SalaryDate.ToString().Split(' ')[0]</td>
+            <td>@es.IsPaid</td>
+                @if (User.IsInRole("Admin")){
+            <td>
+                <a class="btn btn-success" href="/EmployeeSalary/EditEmployeeSalary/@es.Id">Edit</a>
+            </td>
+            <td>
+                <a class="btn btn-danger" href="/EmployeeSalary/DeleteEmployeeSalary/{@es.Id}">Delete</a>
+            </td>
+                }
+        </tr>
+    }
+</table>
+</div>

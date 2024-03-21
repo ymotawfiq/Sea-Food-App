@@ -1,0 +1,49 @@
+﻿@using SeaFoodApp.Models.Entities
+
+@{
+    var Dishes = (IEnumerable<Dish>)ViewData["dishes"];
+}
+
+    <h2 style="color:white; padding:3%">All Dishes</h2>
+
+@if (ViewBag.deleted == true)
+{
+    <div class="alert alert-danger" role="alert">
+        Dish deleted successfully!
+    </div>
+}
+@if (User.IsInRole("Admin"))
+{
+    <p style="text-align:center">
+        <a class="btn btn-success" href="/Dish/AddDish">Add New Dish</a>
+    </p>
+}
+@if (Dishes != null)
+{
+
+    @foreach (var d in Dishes)
+    {
+            <div class="container" style="padding: 3%; padding-left:30%;  padding-right:30%">
+                <div class="card" style="width:100%">
+                    <img class="card-img-top" alt="Card image cap" src="~/Images/Dishes/@d.ImageUrl" style="width:100%">
+                    <div class="card-body">
+                        <h5 class="card-title">@d.DishName</h5>
+                        <p class="card-text">@d.DishDescription</p>
+                        <p class="card-text"><b>@d.DishCost$</b></p>
+                    @if (User.IsInRole("Admin")){
+                        <a href="/Dish/EditDish/@d.Id" class="btn btn-success">Edit</a>
+                        <a href="/Dish/DeleteDish/@d.Id" class="btn btn-danger">Delete</a>
+                    }
+                    </div>
+                </div>
+        </div>
+
+    }
+
+}
+
+<br /><br />
+
+
+
+

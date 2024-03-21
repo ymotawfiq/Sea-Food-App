@@ -1,0 +1,74 @@
+﻿@using SeaFoodApp.Models.Entities
+
+@model SeaFoodApp.Views.Employee.EditEmployeeJob
+
+@{
+    var employeeJob = (EmployeeJobs)ViewData["employeeJob"];
+    var employees = (IEnumerable<Employee>)ViewData["employees"];
+    var jobs = (IEnumerable<Job>)ViewData["jobs"];
+}
+<div class="container" style="background-color:white;padding:3%">
+
+@if (ViewBag.edited == true)
+{
+    <div class="alert alert-success" role="alert">
+        Employee Job Updated Successfully!
+    </div>
+    <a class="btn btn-secondary" href="/EmployeeJobs/GetAllEmployeesJobs">Go To Employees Jobs Page</a>
+}
+
+else
+{
+    @if (jobs != null && employees != null && jobs.ToList().Count > 0 && employees.ToList().Count > 0)
+    {
+
+
+        <div id="section" style="padding:10%">
+            <h2 style="text-align:center">Edit Employee Job</h2>
+            <form action="/EmployeeJobs/EditEmployeeJob" method="post">
+                <div asp-validation-summary="All" style="color:red;"></div>
+                <input type="text" name="Id" value="@employeeJob.Id" hidden />
+                <div class="row">
+                    <h5><label for="Name">Employee Name</label></h5>
+                </div>
+                <br />
+                <div class="row">
+                    <select id="employeeId" name="employeeId" class="form-select form-select-lg mb-3">
+                        @*                         <option selected disabled>Open this select menu</option> *@
+                        @foreach (var e in employees)
+                        {
+                            <option value="@e.Id" selected="@employeeJob.Employee.Name">@e.Name</option>
+                            <span asp-validation-for="@e.Id" class="text-danger"></span>
+                        }
+                    </select>
+                </div>
+                <br /><br />
+                <div class="row">
+                    <h5><label for="Name">Job Title</label></h5>
+                </div>
+                <br />
+                <div class="row">
+                    <select id="jobId" name="jobId" class="form-select form-select-lg mb-3">
+                        @*                         <option selected disabled>Open this select menu</option> *@
+                        @foreach (var j in jobs)
+                        {
+                            <option value="@j.Id" selected="@employeeJob.Job.Title">@j.Title</option>
+                            <span asp-validation-for="@j.Id" class="text-danger"></span>
+                        }
+                    </select>
+                </div>
+                <br /><br />
+                <div class="row">
+                    <div class="col-sm-4">
+                        <button type="submit" class="btn btn-primary">Edit Employee Job</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+       
+
+    }
+}
+</div>
+

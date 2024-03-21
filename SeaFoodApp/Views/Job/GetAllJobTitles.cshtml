@@ -1,0 +1,40 @@
+﻿@using SeaFoodApp.Models.Entities
+
+
+
+<div class="container" style="padding:3%">
+    <h2 style="color:white">All Jobs</h2>
+    @if (User.IsInRole("Admin"))
+    {
+        <a class="btn btn-primary" href="/Job/AddJob">Add New Job</a>
+    }
+
+    <table class="table table-striped" style="background-color:white;">
+    <tr>
+        <th>Job Title</th>
+        <th></th>
+        <th></th>
+    </tr>
+    @foreach (var e in Model)
+    {
+        <tr>
+            <td>@e.Title</td>
+                @if (User.IsInRole("Admin"))
+                {
+                    <td>
+                        <a class="btn btn-success" href="/Job/EditJob/@e.Id" >Edit</a>
+                    </td>
+                    <td>
+                        <a class="btn btn-danger" href="/Job/DeleteJob/{@e.Id}">Delete</a>
+            </td>
+            }
+        </tr>
+
+        
+    }
+</table>
+
+</div>
+
+
+

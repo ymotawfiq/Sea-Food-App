@@ -1,0 +1,53 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+
+<div class="container" style="padding:3%">
+    <h2 style="color:white;">All Tables Orders</h2>
+
+    @if (User.IsInRole("Admin"))
+    {
+        @if (Model == null || Model.Count == 0)
+        {
+            <a class="btn btn-primary" href="/TableOrder/AddTableOrder/1">Add Table Order</a>
+
+        }
+
+    }
+    <table class="table table-striped" style="background-color:white;">
+        <tr>
+            <th>Table Number</th>
+            <th>Dish Name</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        @foreach (var ej in Model)
+        {
+            <tr>
+                <td>@ej.TableNumber</td>
+                <td>@ej.Dish.DishName</td>
+                @if (User.IsInRole("Admin"))
+                {
+                    <td>
+                        <a class="btn btn-primary" href="/TableOrder/AddTableOrder/@ej.TableNumber">Add Table Order</a>
+                    </td>
+                    <td>
+                        <a class="btn btn-success" href="/TableOrder/EditTableOrder/@ej.Id">Edit</a>
+                    </td>
+                    <td>
+                        <a class="btn btn-danger" href="/TableOrder/DeleteTableOrder/@ej.Id">Delete</a>
+                </td>
+                }
+            </tr>
+
+
+        }
+    </table>
+
+
+</div>
