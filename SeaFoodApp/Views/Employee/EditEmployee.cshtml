@@ -20,7 +20,7 @@ else
     @if (Model != null)
     {
         <div id="section" style="padding:10%">
-            <h2 style="text-align:center">Edit Employee</h2>
+            <h2 style="text-align:center; color:black;" >Edit Employee</h2>
             <form action="/Employee/EditEmployee" method="post">
                 <div asp-validation-summary="All" style="color:red;"></div>
                 <input type="text" name="Id" asp-for="@Model.Id" hidden />

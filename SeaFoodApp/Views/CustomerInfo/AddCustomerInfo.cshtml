@@ -24,7 +24,7 @@
         @if (customer != null)
         {
             <div id="section" style="padding:10%">
-                <h2 style="text-align:center">Add New Customer Info</h2>
+                <h2 style="text-align:center;color:black;">Add New Customer Info</h2>
                 <form action="/CustomerInfo/AddCustomerInfo" method="post">
                     <div asp-validation-summary="All" style="color:red;"></div>
                     <input type="text" name="cusId" value="@customer.Id" hidden />

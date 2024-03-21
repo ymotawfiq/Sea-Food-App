@@ -18,7 +18,7 @@
         @if (Model != null)
         {
             <div id="section" style="padding:10%">
-                <h2 style="text-align:center">Edit Job</h2>
+                <h2 style="text-align:center;color:black;">Edit Job</h2>
                 <form action="/Job/EditJob" method="post">
                     <div asp-validation-summary="All" style="color:red"></div>
                     <input type="text" asp-for="@Model.Id" hidden />
