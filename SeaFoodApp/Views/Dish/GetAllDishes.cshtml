@@ -27,9 +27,9 @@
                 <div class="card" style="width:100%">
                     <img class="card-img-top" alt="Card image cap" src="~/Images/Dishes/@d.ImageUrl" style="width:100%">
                     <div class="card-body">
-                        <h5 class="card-title">@d.DishName</h5>
-                        <p class="card-text">@d.DishDescription</p>
-                        <p class="card-text"><b>@d.DishCost$</b></p>
+                    <h5 class="card-title" style="color:black;">@d.DishName</h5>
+                        <p class="card-text" style="color:black;">@d.DishDescription</p>
+                    <p class="card-text" style="color:black;"><b>@d.DishCost$</b></p>
                     @if (User.IsInRole("Admin")){
                         <a href="/Dish/EditDish/@d.Id" class="btn btn-success">Edit</a>
                         <a href="/Dish/DeleteDish/@d.Id" class="btn btn-danger">Delete</a>

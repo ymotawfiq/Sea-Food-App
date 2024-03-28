@@ -1,4 +1,9 @@
 ﻿@using SeaFoodApp.Models.DTOs
+<style>
+    * {
+        color: black;
+    }
+</style>
 
 @{
     var employeeInfoDto = (EmployeeInfoDto)ViewData["employeeInfoDto"];
@@ -16,13 +21,14 @@
 
 <br />
 <br />
-    @if (User.IsInRole("Admin"))
-    {
-        <a class="btn btn-primary" href="/EmployeeSalary/AddEmployeeSalary/@employeeInfoDto.EmployeeId">Add Salary</a>
 
-    }
 
     <h2><u>@employeeInfoDto.Name Jobs</u></h2>
+    @if (User.IsInRole("Admin"))
+    {
+        <a class="btn btn-primary" href="/EmployeeJobs/AddEmployeeJob">Add Employee Job</a>
+
+    }
 <br />
 <table class="table table-striped" style="background-color:white;">
     <tr>
@@ -50,7 +56,6 @@
     }
 </table>
 
-<a class="btn btn-primary" href="/EmployeeJobs/AddEmployeeJob">Add Employee Job</a>
 
 <br />
 <br />
@@ -90,5 +95,10 @@
                 }
         </tr>
     }
+        @if (User.IsInRole("Admin"))
+        {
+            <a class="btn btn-primary" href="/EmployeeSalary/AddEmployeeSalary/@employeeInfoDto.EmployeeId">Add Salary</a>
+
+        }
 </table>
 </div>
