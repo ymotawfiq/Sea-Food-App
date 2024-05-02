@@ -42,9 +42,11 @@ namespace SeaFoodApp.Models.Data
         public DbSet<DishOrder> DishOrders { get; set; }
 
         public DbSet<Customer> Customers { get; set; }
+
         public DbSet<CustomerInfo> CustomerInfo { get; set; }
 
         public DbSet<CustomerDishes> CustomerDishes { get; set; }
+
         public DbSet<TableOrder> TableOrders { get; set; }
 
     }

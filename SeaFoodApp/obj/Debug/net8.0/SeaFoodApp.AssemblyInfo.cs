@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SeaFoodApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75162adc1d10ce7be14a3633e700107ff6cd6f18")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e7c57750d54dc64a843921d7fc03ddedfd0e9e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("SeaFoodApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SeaFoodApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

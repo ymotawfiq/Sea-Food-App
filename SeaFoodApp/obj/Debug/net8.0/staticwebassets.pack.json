@@ -1,379 +1,379 @@
 {
   "Files": [
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SeaFoodApp.bundle.scp.css",
-      "PackagePath": "staticwebassets\\SeaFoodApp.bundle.scp.css"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/obj/Debug/net8.0/scopedcss/projectbundle/SeaFoodApp.bundle.scp.css",
+      "PackagePath": "staticwebassets/SeaFoodApp.bundle.scp.css"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\Images\\Dishes\\244964a4_Crispy Smelt Fish with Fresh Lemon.jpg",
-      "PackagePath": "staticwebassets\\Images\\Dishes\\244964a4_Crispy Smelt Fish with Fresh Lemon.jpg"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/Images/Dishes/244964a4_Crispy Smelt Fish with Fresh Lemon.jpg",
+      "PackagePath": "staticwebassets/Images/Dishes/244964a4_Crispy Smelt Fish with Fresh Lemon.jpg"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\Images\\Dishes\\c96aba11_Best Scorpion Fish Cake.jpg",
-      "PackagePath": "staticwebassets\\Images\\Dishes\\c96aba11_Best Scorpion Fish Cake.jpg"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/Images/Dishes/c96aba11_Best Scorpion Fish Cake.jpg",
+      "PackagePath": "staticwebassets/Images/Dishes/c96aba11_Best Scorpion Fish Cake.jpg"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\Images\\customerImage.webp",
-      "PackagePath": "staticwebassets\\Images\\customerImage.webp"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/Images/customerImage.webp",
+      "PackagePath": "staticwebassets/Images/customerImage.webp"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\css\\styles.css",
-      "PackagePath": "staticwebassets\\css\\styles.css"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/css/styles.css",
+      "PackagePath": "staticwebassets/css/styles.css"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\image\\1.png",
-      "PackagePath": "staticwebassets\\image\\1.png"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/image/1.png",
+      "PackagePath": "staticwebassets/image/1.png"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\image\\2.png",
-      "PackagePath": "staticwebassets\\image\\2.png"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/image/2.png",
+      "PackagePath": "staticwebassets/image/2.png"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\image\\3.jpg",
-      "PackagePath": "staticwebassets\\image\\3.jpg"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/image/3.jpg",
+      "PackagePath": "staticwebassets/image/3.jpg"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\image\\4.jpg",
-      "PackagePath": "staticwebassets\\image\\4.jpg"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/image/4.jpg",
+      "PackagePath": "staticwebassets/image/4.jpg"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\image\\Alain Ducasse.jpg",
-      "PackagePath": "staticwebassets\\image\\Alain Ducasse.jpg"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/image/Alain Ducasse.jpg",
+      "PackagePath": "staticwebassets/image/Alain Ducasse.jpg"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\image\\Alain Ducasse2.jpg",
-      "PackagePath": "staticwebassets\\image\\Alain Ducasse2.jpg"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/image/Alain Ducasse2.jpg",
+      "PackagePath": "staticwebassets/image/Alain Ducasse2.jpg"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\image\\Fried-132052360-612x612.jpg",
-      "PackagePath": "staticwebassets\\image\\Fried-132052360-612x612.jpg"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/image/Fried-132052360-612x612.jpg",
+      "PackagePath": "staticwebassets/image/Fried-132052360-612x612.jpg"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\image\\Gordon Ramsay.jpg",
-      "PackagePath": "staticwebassets\\image\\Gordon Ramsay.jpg"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/image/Gordon Ramsay.jpg",
+      "PackagePath": "staticwebassets/image/Gordon Ramsay.jpg"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\image\\Lobster680x680.jpg",
-      "PackagePath": "staticwebassets\\image\\Lobster680x680.jpg"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/image/Lobster680x680.jpg",
+      "PackagePath": "staticwebassets/image/Lobster680x680.jpg"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\image\\Menu\\Appetizing Meal With Baked Fish.jpg",
-      "PackagePath": "staticwebassets\\image\\Menu\\Appetizing Meal With Baked Fish.jpg"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/image/Menu/Appetizing Meal With Baked Fish.jpg",
+      "PackagePath": "staticwebassets/image/Menu/Appetizing Meal With Baked Fish.jpg"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\image\\Menu\\Best Scorpion Fish Cake.jpg",
-      "PackagePath": "staticwebassets\\image\\Menu\\Best Scorpion Fish Cake.jpg"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/image/Menu/Best Scorpion Fish Cake.jpg",
+      "PackagePath": "staticwebassets/image/Menu/Best Scorpion Fish Cake.jpg"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\image\\Menu\\Crispy Smelt Fish with Fresh Lemon.jpg",
-      "PackagePath": "staticwebassets\\image\\Menu\\Crispy Smelt Fish with Fresh Lemon.jpg"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/image/Menu/Crispy Smelt Fish with Fresh Lemon.jpg",
+      "PackagePath": "staticwebassets/image/Menu/Crispy Smelt Fish with Fresh Lemon.jpg"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\image\\Menu\\Plate of steamed crayfish.jpg",
-      "PackagePath": "staticwebassets\\image\\Menu\\Plate of steamed crayfish.jpg"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/image/Menu/Plate of steamed crayfish.jpg",
+      "PackagePath": "staticwebassets/image/Menu/Plate of steamed crayfish.jpg"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\image\\Menu\\Spicy Salmon Bowl with Rice.jpg",
-      "PackagePath": "staticwebassets\\image\\Menu\\Spicy Salmon Bowl with Rice.jpg"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/image/Menu/Spicy Salmon Bowl with Rice.jpg",
+      "PackagePath": "staticwebassets/image/Menu/Spicy Salmon Bowl with Rice.jpg"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\image\\Menu\\Traditional spanish seafood paella with shrimps in the fry pan.jpg",
-      "PackagePath": "staticwebassets\\image\\Menu\\Traditional spanish seafood paella with shrimps in the fry pan.jpg"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/image/Menu/Traditional spanish seafood paella with shrimps in the fry pan.jpg",
+      "PackagePath": "staticwebassets/image/Menu/Traditional spanish seafood paella with shrimps in the fry pan.jpg"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\image\\Menu\\delicious and healthy Japanese sushi rolls.jpg",
-      "PackagePath": "staticwebassets\\image\\Menu\\delicious and healthy Japanese sushi rolls.jpg"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/image/Menu/delicious and healthy Japanese sushi rolls.jpg",
+      "PackagePath": "staticwebassets/image/Menu/delicious and healthy Japanese sushi rolls.jpg"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\image\\Menu\\red snapper with bok choy.jpg",
-      "PackagePath": "staticwebassets\\image\\Menu\\red snapper with bok choy.jpg"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/image/Menu/red snapper with bok choy.jpg",
+      "PackagePath": "staticwebassets/image/Menu/red snapper with bok choy.jpg"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\image\\Menu\\salmon steak with dill decoration.jpg",
-      "PackagePath": "staticwebassets\\image\\Menu\\salmon steak with dill decoration.jpg"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/image/Menu/salmon steak with dill decoration.jpg",
+      "PackagePath": "staticwebassets/image/Menu/salmon steak with dill decoration.jpg"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\image\\alain-ducasse.jpg",
-      "PackagePath": "staticwebassets\\image\\alain-ducasse.jpg"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/image/alain-ducasse.jpg",
+      "PackagePath": "staticwebassets/image/alain-ducasse.jpg"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\image\\best chefs.jpg",
-      "PackagePath": "staticwebassets\\image\\best chefs.jpg"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/image/best chefs.jpg",
+      "PackagePath": "staticwebassets/image/best chefs.jpg"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\image\\food-squid-chorizo.jpeg",
-      "PackagePath": "staticwebassets\\image\\food-squid-chorizo.jpeg"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/image/food-squid-chorizo.jpeg",
+      "PackagePath": "staticwebassets/image/food-squid-chorizo.jpeg"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\image\\istockphoto-1325172440-612x612.jpg",
-      "PackagePath": "staticwebassets\\image\\istockphoto-1325172440-612x612.jpg"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/image/istockphoto-1325172440-612x612.jpg",
+      "PackagePath": "staticwebassets/image/istockphoto-1325172440-612x612.jpg"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\image\\joel-612x612.jpg",
-      "PackagePath": "staticwebassets\\image\\joel-612x612.jpg"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/image/joel-612x612.jpg",
+      "PackagePath": "staticwebassets/image/joel-612x612.jpg"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\image\\raw salmon-1413869632-612x612.jpg",
-      "PackagePath": "staticwebassets\\image\\raw salmon-1413869632-612x612.jpg"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/image/raw salmon-1413869632-612x612.jpg",
+      "PackagePath": "staticwebassets/image/raw salmon-1413869632-612x612.jpg"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\js\\script.js",
-      "PackagePath": "staticwebassets\\js\\script.js"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/js/script.js",
+      "PackagePath": "staticwebassets/js/script.js"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "PackagePath": "staticwebassets\\lib\\bootstrap"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Id": "D:\\my_source_code\\Projects\\SeaFoodApp\\SeaFoodApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+      "Id": "/run/media/yousef/11390DA85C69884D/my_source_code/Projects/SeaFoodApp/SeaFoodApp/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SeaFoodApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.SeaFoodApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SeaFoodApp.props",
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.SeaFoodApp.props",
       "PackagePath": "build\\SeaFoodApp.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SeaFoodApp.props",
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.SeaFoodApp.props",
       "PackagePath": "buildMultiTargeting\\SeaFoodApp.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SeaFoodApp.props",
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.SeaFoodApp.props",
       "PackagePath": "buildTransitive\\SeaFoodApp.props"
     }
   ],
